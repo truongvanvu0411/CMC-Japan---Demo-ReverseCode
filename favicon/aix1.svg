@@ -1,0 +1,50 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+  <!-- Nền gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="64" x2="64" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="16" y1="48" x2="48" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Vòng tròn nền -->
+  <circle cx="32" cy="32" r="32" fill="url(#bgGrad)"/>
+
+  <!-- Vòng tròn viền mờ -->
+  <circle cx="32" cy="32" r="28"
+          stroke="url(#accentGrad)"
+          stroke-width="2"
+          opacity="0.7"
+          fill="none"/>
+
+  <!-- Chữ A cách điệu (AI) -->
+  <path d="M22 44 L30 20 L38 44"
+        fill="none"
+        stroke="#E5F0FF"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  <!-- Gạch ngang của A (gợi ý AI) -->
+  <line x1="25" y1="34" x2="35" y2="34"
+        stroke="#38BDF8"
+        stroke-width="2"
+        stroke-linecap="round"/>
+
+  <!-- Chữ X cách điệu -->
+  <path d="M40 24 L48 40"
+        stroke="#A855F7"
+        stroke-width="3"
+        stroke-linecap="round"/>
+  <path d="M48 24 L40 40"
+        stroke="#38BDF8"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+  <!-- Điểm sáng nhỏ (cảm giác AI, neural) -->
+  <circle cx="36" cy="22" r="2" fill="#22D3EE"/>
+</svg>

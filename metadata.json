@@ -1,0 +1,5 @@
+{
+  "name": "CMC-Japan AI Migration-Demo",
+  "description": "An application that uses the CMC-Japan AI to perform reverse engineering on an uploaded project ZIP file. It provides a project overview, component analysis, technology stack, screen transition diagrams, database ERDs, and screen descriptions.",
+  "requestFramePermissions": []
+}
